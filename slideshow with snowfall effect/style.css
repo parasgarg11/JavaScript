@@ -1,0 +1,59 @@
+.slideshow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	filter: brightness(0.7);
+}
+
+.website-header{
+	position: absolute;
+	color: #fff;
+	z-index: 2;
+	width: 700px;
+	font-size: 22px;
+	top: 80px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+}
+
+.website-header img{
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+.website-header button{
+	width: 200px;
+	height: 70px;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #fff;
+	margin: 0 auto;  
+	cursor: pointer;
+}
+
+.fade{
+	animation-name: fade;
+	animation-duration: 1.5s; 
+}
+
+#snow-effect{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+@keyframes fade{
+	from{
+		opacity: 0.4;
+	}
+	to{
+		opacity: 1;
+	}
+}
