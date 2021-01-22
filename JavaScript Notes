@@ -11,3 +11,18 @@ links[i].className = "link-" + i;
 var a= "xyz";
 var b= 5;
 console.log(a+b);   // Output: NaN
+
+/*DOM: Document Object Model
+Document are web Pages, Elements are Objects , Model is in tree structure (add, remove, change);y0000000000000
+*/
+document.getElementsByTagName(" ");
+document.getElementsByClassName(" ");
+document.getElementById(" ");   // ID is only 1 thats why Element not Elements
+
+e.g.
+var link = document.getElementById("test");
+link.getAttribute("href");
+
+//Changing CSS Style
+
+link.setAttribute("style", "left: 10px;"):
