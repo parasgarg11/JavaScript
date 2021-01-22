@@ -26,3 +26,17 @@ link.getAttribute("href");
 //Changing CSS Style
 
 link.setAttribute("style", "left: 10px;"):
+
+var newA = document.createElement("a");  
+
+menu.appendChild(newA);  //also removeChild
+newB.innerHTML = "blog";
+menu.insertBefore(newA, menu.getElementsByTagName("li")[0]);   // block the menu's tag 
+
+
+//EVENTS
+alert(" ");
+newA.onclick = function(){};
+newA.onmouseover = function(){};
+
+window.onLoad = function(){}; //when all the HTML tags have loaded in then fire the js functions for the proper flow of the webpage.
