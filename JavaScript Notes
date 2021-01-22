@@ -40,3 +40,10 @@ newA.onclick = function(){};
 newA.onmouseover = function(){};
 
 window.onLoad = function(){}; //when all the HTML tags have loaded in then fire the js functions for the proper flow of the webpage.
+
+
+Jquery: Its a JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+
+AJAX: allows to communicate with the server without having to leave the webpage. (dynamically load the data)
+
+JSON: Its a way of organizing data and works well with AJAX.
