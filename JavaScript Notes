@@ -1,0 +1,7 @@
+//Use JavaScript to add alot of className to the Tags
+
+var links = document.getElementsByTagName("TagName");  // TagName can be "a", "p"...
+
+for(i=0; i<links.length; i++){
+links[i].className = "link-" + i;
+}
