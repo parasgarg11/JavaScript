@@ -5,3 +5,9 @@ var links = document.getElementsByTagName("TagName");  // TagName can be "a", "p
 for(i=0; i<links.length; i++){
 links[i].className = "link-" + i;
 }
+
+
+// NaN: Not a Number
+var a= "xyz";
+var b= 5;
+console.log(a+b);   // Output: NaN
